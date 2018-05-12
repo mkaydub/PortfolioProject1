@@ -1,0 +1,254 @@
+/* GLOBAL CSS */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: "Oswald", sans-serif;
+    color: #66cccc;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 10px;
+
+}
+
+p {
+    color: #2d3134;
+}
+
+header,
+section,
+div,
+* {
+    box-sizing: border-box;
+}
+
+a:link,
+a:visited,
+a:active {
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #000066;
+    letter-spacing: 0.4em;
+}
+
+footer {
+    font-family: "Petit Formal Script", cursive;
+    padding: 20px;
+}
+
+.header-section,
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: 1em;
+}
+
+/* HEAD */
+
+.header-section {
+    width: 1100px;
+    margin-top: 1em;
+    margin-left: auto;
+}
+
+.header-inner {
+    width: 100%;
+    border-bottom: 1.5px solid #66cccc;
+    margin-bottom: 30px;
+}
+
+.logo {
+    max-width: 250px;
+    padding-top: 1em;
+    display: flex;
+}
+
+.container-title {
+    text-align: right;
+    margin-top: -11em;
+    margin-left: auto;
+    padding-bottom: 4em;
+}
+
+.header-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #66cccc;
+}
+
+.guru {
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.social-icon {
+    max-width: 50px;
+    margin: 5px;
+
+}
+
+/* HERO */
+
+.hero-container {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+
+}
+
+.hero-img {
+    width: 100%;
+}
+
+
+/* FEATURED PROJECTS */
+
+.featured-work {
+    border-bottom: 1px solid #66cccc;
+    width: 100%;
+}
+
+.f-title {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    color: #66cccc;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+}
+
+.f-p {
+    font-size: 18px;
+    margin-top: 3px;
+    font-family: "Petit Formal Script", cursive;
+}
+
+.project-container {
+    padding-top: 1em;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.projects {
+    width: 33%;
+}
+
+.featured-img {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.project-title {
+    font-family: "Oswald", serif;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 0;
+    text-transform: uppercase;
+    background: #66cccc;
+    color: #fff;
+}
+
+.featured-img:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    /* For IE8 and earlier */
+    border: 5px solid #66cccc;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.contact-header {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    color: #66cccc;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    padding-top: 20px;
+}
+
+.contact-form-description {
+    margin-top: 3px;
+    margin-bottom: 2px;
+    padding-bottom: 15px;
+    font-family: "Petit Formal Script", cursive;
+    font-size: 20px;
+    border-bottom: solid 1px #66cccc;
+}
+
+.form {
+    border: none;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    padding: 5px;
+    border: solid 1px #66cccc;
+    display: block;
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em;
+}
+
+label {
+    font-family: "Petit Formal Script", cursive;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    color: #fff;
+    background-color: #66cccc;
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+}
