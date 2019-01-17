@@ -4,6 +4,8 @@ This is the first of 7 projects for the Grow with Google Udacity Scholarship for
 
 This is the PDF: https://d17h27t6h515a5.cloudfront.net/…/design-mockup-portf….
 
+Here is the live version: https://mkaydub.github.io/PortfolioProject1/
+
 Note: The links don't go anywhere (except the social media links) and the form does not collect data.
 
 Let me know what you think!
